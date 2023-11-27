@@ -69,3 +69,12 @@ for i in realized_pnl:
         highest_pnl = i
 
 print(f"Your highest pnl today was: {highest_pnl}")
+
+# for loop with range
+# for number in range(1, 10, 2):
+#     print(number)
+
+total = 0
+for number in range(1, 101):
+    total += number
+    print(total)
